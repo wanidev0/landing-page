@@ -14,7 +14,9 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 8px 0;
+    margin: auto;
     margin-bottom: 100px;
+    max-width: 1200px;
 }
 
 .logo {
@@ -49,6 +51,7 @@ h1 {
 
 .main {
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -62,6 +65,8 @@ h1 {
     justify-content: center;
     align-items: center;
     flex: auto;
+    max-width: 525px;
+    padding: 0px 50px;
 }
 
 .button {
@@ -94,6 +99,7 @@ h2 {
     margin: auto;
     gap: 48px;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .info {
@@ -113,11 +119,68 @@ h2 {
 
 .section-quote {
     background-color: #E5E7EB;
+    padding: 100px 0;
+    color: #1F2937;
+}
+
+.container-quote {
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 50px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+    margin: 0;
+}
+
+.quote-author {
+    text-align: end;
+    margin: 0;
+    margin-right: 25px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section-signup {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+}
+
+.container-signup {
+    background-color: #3882F6;
+    padding: 50px 125px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-signup {
+    margin-right: 20px;
+}
+
+.text-signup strong {
+    display: block;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 4px;
+}
+
+.button-signup {
+    border: 2px solid #F9FAF8;
+    margin: 0;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
